@@ -2,7 +2,7 @@
 int main(void)
 
   /**
-  * Main - prints string
+  * Main - prints string with put
   * Return: Always 0 (Sucess)
 */
 {
