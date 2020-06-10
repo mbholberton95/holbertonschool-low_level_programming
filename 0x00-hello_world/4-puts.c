@@ -3,7 +3,6 @@ int main(void)
 
   /**
  * Main - Prints the required string.
- *
  * Return: Always (0).
  */ 
   
