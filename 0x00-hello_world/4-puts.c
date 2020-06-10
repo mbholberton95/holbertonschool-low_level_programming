@@ -2,9 +2,11 @@
 int main(void)
 
   /**
-  * Main - prints string with put
-  * Return: Always 0 (Sucess)
-*/
+ * Main - Prints the required string.
+ *
+ * Return: Always (0).
+ */ 
+  
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
