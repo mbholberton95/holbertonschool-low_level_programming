@@ -1,35 +1,30 @@
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ * main - Will print the numbers and tell you if they are bigger than 5, smaller than 6 or equal to 0
+ * Return: Always (0).
+ */ 
+
 int main(void)
 {
 	int n;
-	int r;
+	int d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	r = n % 10;
-	if (r > 5)
-	{
-		printf("Last digit of %i is %i and is greater than 5\n", n, r);
-	}
-	else if (r == 0)
-	{
-		printf("Last digit of %i is %i and is 0\n", n, r);
-	}
-	else
-	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, r);
-	}
-
+	/* your code goes there */
+    d= n%10;
+    printf ("Last digit of %d is %d and is ", n, d);
+    
+    if (d==0){
+    printf ("and is 0\n");
+    } else if (d>5) {
+    printf ("greater than 5\n");}
+    else if (d<6){
+    printf ("and is less than 6 and not 0");
+    }
+    
 	return (0);
 }
