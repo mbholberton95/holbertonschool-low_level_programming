@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Will print abc
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
